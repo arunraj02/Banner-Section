@@ -1,0 +1,78 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+
+#banner-section-1{
+	height:100vh;
+	background:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(images/hero.jpg);
+	background-size:cover;
+}
+
+.container{
+	width:62%;
+	margin:auto;
+}
+
+.caption{
+	color:#fafafa;
+	width:76%;
+	line-height:1;
+	position:relative;
+	top:200px;
+	left:24%;
+}
+
+h1{
+	font-family:poppins;
+	font-size:56px;
+}
+
+h3{
+	font-family:raleway;
+	font-size:24px;
+	font-weight:400;
+	margin:10px 0px 0px;
+}
+
+span{
+	color:#ffc451;
+	font-size:72px;
+}
+
+.select{
+	display:flex;
+	justify-content:space-between;
+	color:#fafafa;
+	height:20vh;
+	position:relative;
+	top:260px;
+}
+
+.selection{
+	border:2px solid rgba(255, 255, 255, 0.3);
+	text-align:center;
+	width:18%;
+}
+
+.selection:hover{
+	border:1px solid #ffc451;
+}
+
+.selection h3{
+	color:white;
+	font-family:raleway;
+	font-size:18px;
+	cursor: pointer;
+}
+
+.selection h3:hover{
+	color:#ffc451;
+}	
+
+.selection i{
+	color:#ffc451;
+	font-size:30px;
+	padding-top:30px;
+}	
